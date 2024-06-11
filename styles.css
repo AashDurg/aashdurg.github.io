@@ -181,6 +181,7 @@ About------------------------------------------------------
 */
 
 .about {
+    background-color: #353535;
     background:url(placeholder-images/AboutBG.png);
     background-size: cover;
 }
@@ -235,6 +236,7 @@ Education------------------------------------------------------
 */
 
 .media {
+    background-color: #353535;
     background: url(placeholder-images/AboutBG.png);
     background-size: cover;
 }
