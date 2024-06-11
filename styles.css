@@ -1,0 +1,381 @@
+/*
+Mercury
+#E3E2E1
+
+Mine Shaft
+#353535
+
+Fedora
+#746B70
+
+Ironside Gray
+#74746B
+
+Purple Haze
+#B9A7BB
+
+Cool Gray
+#323B36
+
+Gunmetal Gray
+#616C59
+
+Sage Green
+#76977D
+ #171022
+
+
+*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/*
+links----------------------------------------------------
+*/
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #E3E2E1;
+    margin: 0;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Josefin', sans-serif;
+}
+
+a{
+    color:#695E93;
+}
+
+a:hover{
+    color:#76977D;
+    text-decoration: none;
+}
+
+footer a{
+    color:#B9A7BB
+}
+
+footer a:hover{
+    color:#76977D;
+    text-decoration: none;
+}
+
+
+.btn{
+    background-color: #695E93;
+    color: #E3E2E1;
+    text-decoration: none;
+}
+
+.btnh{
+    background-color:#000;
+    color: #E3E2E1;
+    text-decoration: none;  
+}
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
+.content-wrapper-media{
+    margin: auto;
+    padding: 30px 30px 0px;
+    max-width: 900px;
+}
+.navbox {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 3em;
+}
+
+.item {
+    float: left;
+    border-right:1px solid #E3E2E1 ;
+  }
+  
+.item a {
+    font-size: 16px;
+    font-family: 'Josefin', sans-serif;
+    letter-spacing: 0.1rem;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.item a:hover {
+    background-color: #30263f;
+  }
+.item .active{
+        background-color: #76977D ;
+
+}
+h1, h2, h3, h4, p, li{
+    color:#E3E2E1
+}
+/*
+HOME------------------------------------------------------ 
+*/
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background: url(placeholder-images/BackgroundRebirth.png) center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .content-wrapper{
+    flex: 1 0 auto;
+}
+
+.home .Aash{
+    font-weight: 100;
+    letter-spacing: 1rem;
+    position: center;
+    margin: 30px 0px 10px;
+    text-align: center;
+    color: #E3E2E1; 
+}
+@media screen and (max-width:400px) {
+    .home h2{
+        font-size: 2px;
+    }
+} 
+.home .descriptors{
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.4rem;
+    position: center;
+    top: 80px;
+    text-align: center;
+    color:#E3E2E1
+    
+}
+
+
+/*
+About------------------------------------------------------ 
+*/
+
+.about {
+    background:url(placeholder-images/AboutBG.png);
+    background-size: cover;
+}
+
+.about header::before{
+    background: url(placeholder-images/bgBW.png) center;
+    background-size: cover;
+    content:"";
+    display:block;
+    height: 325px;
+
+}
+
+
+.about h1{
+    font-weight: 100;
+    letter-spacing: 1rem;
+    color:#E3E2E1
+}
+.about h2{
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.4rem;
+    color:#E3E2E1
+}
+.about p{
+    font-weight: 100;
+    color:#E3E2E1
+}
+
+@media screen and (max-width:550px) {
+    .about header::before{
+        height: 225px;
+        }    
+    .about h2{
+        font-size: 1rem;
+    }
+}
+/*
+Bio------------------------------------------------------ 
+*/
+
+/*
+Work exp------------------------------------------------------ 
+*/
+
+/*
+Education------------------------------------------------------ 
+*/
+
+/*Footer--------------------------------------------------------
+*/
+
+.media {
+    background: url(placeholder-images/AboutBG.png);
+    background-size: cover;
+}
+
+
+.media header::before{
+    background: url(placeholder-images/bgBW.png) center;
+    background-size: cover;
+    content:"";
+    display:block;
+    height: 325px;
+
+}
+@media screen and (max-width:550px) {
+    .media header::before{
+        height: 225px;
+        }    
+    .media h2{
+        font-size: 1.1rem;
+    }
+    .media h3{
+        font-size: 0.95rem;
+    }
+}
+.media h1{
+    font-weight: 100;
+    letter-spacing: 1rem;
+    color:#E3E2E1
+}
+.media h2{
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.4rem;
+    color: #e3e2e1;
+}
+.media p{
+    color:#E3E2E1
+}
+
+
+.gridcont{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 10vw);
+    gap: 20px;
+    padding: 20px;
+
+
+}
+.gridcont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item_1{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.item_2{
+    grid-column-start: 4    ;
+    grid-column-end: 7;
+    grid-row: 1/span 3;
+}
+.item_3{
+    grid-column: 1/ span 3;
+    grid-row: 1/span 5;
+}
+.item_4{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row: 1/ span 2;
+}
+
+.item_5{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+
+
+.item_6{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3 ;
+    grid-row-end: 5;
+}
+
+.item_7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    
+}
+
+.item_8{
+    grid-column-start: 1;
+    grid-column-end:9;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}
+
+footer{
+    color:#E3E2E1;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+@media screen and (min-width:860px) {
+   footer{
+        display:flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+}
+@media screen and (max-width:645px) {
+    footer{
+        text-align: center;
+        display: inline;
+        height: max-content;
+    }
+    
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
+.socials li{
+    display: inline-block;
+    margin: 0 5px ;
+}
+
+.socials img:hover{
+    opacity: 0.5;
+}
+
+
+
