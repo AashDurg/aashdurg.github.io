@@ -108,8 +108,7 @@ footer a:hover{
 
 .item {
     float: left;
-    border-right:1px solid #E3E2E1 ;
-  }
+}
   
 .item a {
     font-size: 16px;
