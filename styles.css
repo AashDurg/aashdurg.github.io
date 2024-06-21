@@ -40,12 +40,11 @@ html {
 links----------------------------------------------------
 */
 html, body{
-    background-color: #141717;
     height: 100%;
 }
 body{
-    /* background-color: #353535;
-     */margin: 0;
+    background-color: #E3E2E1;
+    margin: 0;
 }
 
 h1, h2, h3, h4{
@@ -108,7 +107,8 @@ footer a:hover{
 
 .item {
     float: left;
-}
+    
+  }
   
 .item a {
     font-size: 16px;
@@ -136,8 +136,7 @@ HOME------------------------------------------------------
 */
 
 .home {
-   /*  background-color: #353535;
- */    width: 100vw;
+    width: 100vw;
     height: 100vh;
     background: url(placeholder-images/BackgroundRebirth.png) center;
     background-size: cover;
@@ -180,7 +179,6 @@ About------------------------------------------------------
 */
 
 .about {
-    /* background-color: #353535; */
     background:url(placeholder-images/AboutBG.png);
     background-size: cover;
 }
@@ -235,7 +233,6 @@ Education------------------------------------------------------
 */
 
 .media {
-   /*  background-color: #353535; */
     background: url(placeholder-images/AboutBG.png);
     background-size: cover;
 }
@@ -341,6 +338,38 @@ Education------------------------------------------------------
     grid-column-end:9;
     grid-row-start: 8;
     grid-row-end: 11;
+}
+
+.vids{
+    margin: 5vh 10vw;
+    display: flex;
+   /*  border: 4px solid white;
+ */    flex-direction: row;
+}
+
+.vids div{
+    flex-direction: column;
+   /*  border: 4px solid red; */
+    flex: 1 1 ;
+    text-align: center;
+}
+
+.vids li{
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.vids li:first-child{
+    font-size: 1.6em;
+    font-weight: 300;
+    font-family: 'Josefin', sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 2em;
+}
+
+.vids iframe{
+    width: 100%;
+    height: 40vh;
 }
 
 footer{
