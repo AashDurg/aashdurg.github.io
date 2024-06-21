@@ -401,7 +401,9 @@ footer{
     .videohead{
         text-align: left;
     }
-    
+    .vids:nth-child(2n){
+        flex-direction: column-reverse;
+    }
 }
 .socials{
     list-style-type: none;
