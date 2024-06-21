@@ -197,10 +197,11 @@ About------------------------------------------------------
 .about h1{
     font-weight: 100;
     letter-spacing: 1rem;
-    color:#E3E2E1
+    color:#E3E2E1;
+    line-height: normal;
 }
 .about h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 100;
     letter-spacing: 0.4rem;
     color:#E3E2E1
@@ -264,7 +265,7 @@ Education------------------------------------------------------
     color:#E3E2E1
 }
 .media h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 100;
     letter-spacing: 0.4rem;
     color: #e3e2e1;
