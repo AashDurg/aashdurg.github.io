@@ -393,6 +393,14 @@ footer{
         display: inline;
         height: max-content;
     }
+
+    .vids{
+        flex-direction: column;
+    }
+
+    .videohead{
+        text-align: left;
+    }
     
 }
 .socials{
